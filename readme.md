@@ -1,4 +1,4 @@
-# WxCC wrapup-confetti
+# WxCC Wrapup-Confetti
 
 This project serves as a fun and interactive example designed to help users explore the capabilities of the Cisco WebEx Contact Center SDK. It demonstrates how you can detect a wrapup event within agent desktop and trigger a celebratory animation, such as throwing confetti when a specific wrapup code is encountered. While this example uses a visual effect to highlight the event, the same approach can be applied to trigger other actions, such as making an API call to a CRM system or integrating with other business applications. This makes the project a practical starting point for learning how to connect Webex Contact Center events to a variety of workflows and external systems.
 
@@ -26,9 +26,9 @@ If you wish to run the widget without making any changes, use the pre-built vers
 6. Copy the file wrapup-confetti.js to your preferred cloud storage platform
 7. Add the widget to your Desktop Layout Advanced Header section (example snippet below). 
 8. Define the following properties on the widget
-   - wrapupId: Name of the Boolean CAD variable
-   - launchCount: amount of confetti to throw (default: 4)
-   - launchDelay: delay in ms between each throw (defaul: 250)
+   - wrapupId: id of the wrapup code to trigger confetti (required)
+   - launchCount: amount of confetti to throw (optional default: 4)
+   - launchDelay: delay in ms between each throw (optional default: 250)
 
 <pre lang="JSON">
   "advancedHeader": [
