@@ -1,0 +1,19 @@
+{
+  "name": "wrapup-confetti",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wxcc-desktop/sdk": "^2.0.10",
+    "canvas-confetti": "^1.9.3",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  }
+}
